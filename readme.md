@@ -30,6 +30,10 @@ If binary data or VBA projects are encountered, the data is Base64 decoded and w
 - Macro
 - DDE
 
+## Samples
+
+There are a number of sample documents in the **sample** directory. **BEWARE** there is an Emotet example in those samples (renamed to .infected) taken from: https://www.malware-traffic-analysis.net/2018/11/16/index.html
+
 ## Screenshot
 
 The screenshot below shows the output when running against an Emotet infected Word document.
