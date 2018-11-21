@@ -136,7 +136,7 @@ func checkFile(files []string, outputPath string, filePath string, regexesString
 				processOle(files, match[1])
 
 			case OOXML_REGEX_BINARY_DATA:
-				color.Println(color.Red(fmt.Sprintf("Found  vbaProject binary data: %s", match[1])))
+				color.Println(color.Red(fmt.Sprintf("Found vbaProject binary data: %s", match[1])))
 				processBinaryData(match[1], match[2])
 
 			case OOXML_REGEX_MACRO:
